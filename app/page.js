@@ -245,6 +245,19 @@ export default function Home() {
               <p className="text-md py-2 leading-8 text-gray-800 dark:text-slate-300 ">  
               <span className="font-nippo text-xl text-teal-600 dark:text-emerald-400">Application Development:</span> Building custom applications with a focus on user experience, functionality, and aesthetics.
               </p>
+            <div className="my-8 flex flex-col items-center">
+              <p className="text-3xl font-stardom text-[#52154E] dark:text-[#BCB6FF] mb-3 text-center">
+                Check out my curated collection of books and support my journey as an author and reader!
+              </p>
+              <a
+                href="https://km-kurisu.github.io/Bibliotheca/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-6 py-3 bg-gradient-to-r from-[#0E6BA8] to-[#BCB6FF] text-white rounded-full font-stardom shadow-lg hover:from-teal-500 hover:to-blue-600 transition-all"
+              >
+                Visit My Book Shop
+              </a>
+            </div>
           </div>
           <div className="lg:flex lg:gap-10 flex-col lg:flex-row">
             <div id="achievements" className="text-left shadow-xl p-6 md:p-10 rounded-xl my-6 w-full lg:my-10 lg:flex-1 bg-animated-card dark:shadow-2xl">
